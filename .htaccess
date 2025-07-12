@@ -1,0 +1,87 @@
+Redirect 301 /becomeapmmember.html /index.html
+Redirect 301 /apmevents.html /index.html
+Redirect 301 /franchiseenquiry.html /index.html
+Redirect 301 /process.html /quality-packing-process.html
+Redirect 301 /international-packers-and-movers.html /services/international-packers-and-movers.html
+Redirect 301 /location/noida-ghaziabad.html /branch/noida.html
+
+
+
+# RewriteEngine On
+# RewriteCond %{HTTP_HOST} ^agarwalpackers\.in [NC]
+# RewriteCond %{SERVER_PORT} 80
+# RewriteRule ^(.*)$ https://www.agarwalpackers.in/$1 [R,L]
+
+ErrorDocument 404 /index.html
+
+<IfModule mod_rewrite.c>
+	RewriteCond %{HTTPS} off [OR]
+	RewriteCond %{HTTP_HOST} !^www\. [NC]
+	RewriteCond %{HTTP_HOST} ^(.*)$  [NC]
+	RewriteRule (.*) https://www.agarwalpackers.in/$1 [R=301,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+    # WEEK
+    <FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+        Header set Cache-Control "max-age=31536000, public"
+    </FilesMatch>
+
+    # WEEK
+    <FilesMatch "\.(js|css|swf)$">
+        Header set Cache-Control "max-age=31536000"
+    </FilesMatch>
+
+    # WEEK
+    <FilesMatch "\.(eot|svg|woff|woff2|ttf)$">
+        Header set Cache-Control "max-age=31536000"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Compress HTML, CSS, JavaScript, Text, XML and fonts
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE application/x-font
+  AddOutputFilterByType DEFLATE application/x-font-opentype
+  AddOutputFilterByType DEFLATE application/x-font-otf
+  AddOutputFilterByType DEFLATE application/x-font-truetype
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+
+  # Images
+  ExpiresByType image/jpeg "access 1 year"
+  ExpiresByType image/gif "access 1 year"
+  ExpiresByType image/png "access 1 year"
+  ExpiresByType image/webp "access 1 year"
+  ExpiresByType image/svg+xml "access 1 year"
+  ExpiresByType image/x-icon "access 1 year"
+
+  # Video
+  ExpiresByType video/mp4 "access 1 year"
+  ExpiresByType video/mpeg "access 1 year"
+
+  # CSS, JavaScript
+  ExpiresByType text/css "access 1 month"
+  ExpiresByType text/javascript "access 1 month"
+  ExpiresByType application/javascript "access 1 month"
+
+  # Others
+  ExpiresByType application/pdf "access 1 month"
+  ExpiresByType application/x-shockwave-flash "access 1 month"
+</IfModule>

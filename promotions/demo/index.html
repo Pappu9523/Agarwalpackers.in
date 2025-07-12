@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <meta name="robots" content="noindex,nofollow" />
+
+    
+<!-- Global site tag (gtag.js) - Google Ads -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-692453580"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-692453580');
+    </script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '877653363484044'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=877653363484044&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+
+    <h4>Get a <span>Free</span> Quote <span class="three">from <br>Agarwal Packers and Movers</span></h4>
+				<form action="/getquote" method="post" name="loginform" id="loginform"
+					onSubmit="return onSubmit();">
+					<input type="text" placeholder="Enter Your Name" class="input-field2" name="txtName" id="txtName"
+						required />
+					<input type="number" placeholder="Enter Your Mobile No." class="input-field2" name="txtMobileNo"
+						id="txtMobileNo" required />
+					<input type="text" placeholder="From Location" class="input-field2" id="txtFrom" name="txtFrom"
+						required />
+					<input type="text" placeholder="To Location" class="input-field2" id="txtTo" name="txtTo"
+						required />
+					<input type="email" placeholder="Enter Your E-mail" class="input-field2" id="txtEmail"
+						name="txtEmail" required />
+					<textarea placeholder="Enter Your Message" class="input-field3" id="message" name="message" rows="3"
+						required></textarea>
+						<input type="hidden" id="gclid_field" name="gclid_field" value="">
+					<input type="hidden" id="pageName" name="pageName" value=" - Submitted on https://www.agarwalpackers.in/promotions/demo/index.html">
+					<div class="terms">
+						<input type="checkbox" name="tandc" id="tandc" checked required />
+						<label for="tandc">I agree and authorize team to contact me and/or send relevant data over
+							Email, SMS & WhatsApp. This will override the registry with DNC / NDNC.
+						</label>
+					</div>
+					
+					<!--  
+
+							<div class="g-recaptcha" data-sitekey="6LfONuwbAAAAAL2_gm61JjaQzIHOTcCEenZDBOJx"></div>
+							
+
+							<br>
+					<div class="capbox">
+						<div id="CaptchaDiv"></div>
+						<div class="capbox-inner">
+							Type the number:<br>
+							<input type="hidden" id="txtCaptcha">
+							<input type="text" name="CaptchaInput" id="CaptchaInput" size="15"><br>
+						</div>
+					</div>
+					<br><br>
+					<!-- END CAPTCHA -->
+
+
+					<input type="submit" value="Submit" class="input-field4" /> -->
+					<button onclick="onClick()" class="g-recaptcha input-field4" data-sitekey="6LdH_lEaAAAAAE4jer1wXma69eSM3Jq1Xiyyz-LP" data-callback="onSubmit" data-action="submit" >submit</button>
+				</form>
+
+                <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit?render=6LdH_lEaAAAAAE4jer1wXma69eSM3Jq1Xiyyz-LP"></script>
+                
+                <script>
+                    function onSubmit(token) {
+                        document.getElementById("loginform").submit();
+
+                    }
+
+                    function onClick(e) {
+                        e.preventDefault();
+                        grecaptcha.ready(function() {
+                            grecaptcha.execute("6LdH_lEaAAAAAE4jer1wXma69eSM3Jq1Xiyyz-LP", {
+                                action: 'submit'
+                            }).then(function(token) {
+                                alert("vikram sehgal");
+                            })
+                        })
+                    }
+                </script>
+    
+<script src="https://www.agarwalpackers.in/js/captcha.js"></script>
+
+	<script>
+		function onSubmit(token) {
+			document.getElementById("loginform").submit();
+		}
+	</script>
+
+	<script src="/js/captchascript.js">
+	</script>
+
+</body>
+</html>

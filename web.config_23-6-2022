@@ -1,0 +1,1063 @@
+<configuration>
+
+<location path="achievments.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/achievements.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="international-packers-and-movers.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/international-packers-and-movers.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="location/sohna-gurgaon.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/sohna-road-gurgaon.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="location/durgapur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/durgapur-kolkata.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="location/haldia.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/haldia-kolkata.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="apmisopolicy.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/apm-iso-policy.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="location/vasundhara-delhi.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/vasundhara-ghaziabad.html" httpResponseStatus="Permanent"/>
+</system.webServer>
+</location>
+<location path="location/hindupur-bangalore.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/hindupuram-bangalore.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="apmpackingpolicy.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/apm-packing-policy.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="apmqualitypolicy.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/apm-quality-policy.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="office-shifting.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/office-shifting.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="house-relocation.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/house-relocation.html" httpResponseStatus="Permanent"/>
+</system.webServer>
+</location>
+<location path="apmservicespolicy.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/apm-services-policy.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="apmtrainingpolicy.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/apm-training-policy.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="parcel-services.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/parcel-services.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="storage-capacity.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/storage-capacity.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="local-shifting.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/local-shifting.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="mdn-warehousing.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/mdn-warehousing.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="location/singrauli.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/singrauli-indore.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="beware.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/beware-of-fake.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="locations.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversvisakhapatnam.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/visakhapatnam.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversvijayawada.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/vijayawada.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversvapi.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/vapi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmovershyderabad.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/hyderabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversvaranasi.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/varanasi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversupborder.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/upborder.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversvadodara.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/vadodara.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverstrivandrum.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/trivandrum.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverstrichy.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/trichy.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversudaipur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/udaipur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverssiliguri.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/siliguri.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverssurat.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/surat.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversrudrapur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/rudrapur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversranchi.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/ranchi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversrajkot.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/rajkot.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversraipur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/raipur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverspune.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/pune.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverspondicherry.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/pondicherry.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverspatna.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/patna.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversmumbai.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/mumbai.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversnasik.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/nasik.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversnagpur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/nagpur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversmysore.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/mysore.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversmeerut.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/meerut.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversmangalore.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/mangalore.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversludhiana.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/ludhiana.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversmadurai.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/madurai.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverslucknow.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/lucknow.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverskottayam.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/kottayam.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverskolkata.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/kolkata.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverskanpur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/kanpur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversjodhpur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/jodhpur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversjharsuguda.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/jharsuguda.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversjamshedpur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/jamshedpur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="contactus.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/contact-us.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversjammu.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/jammu.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversjaipur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/jaipur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversjabalpur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/jabalpur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversallahabad.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/allahabad-varanasi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmovershubli.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/hubli.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversharidwar.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/haridwar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversgwalior.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/gwalior.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversguwahati.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/guwahati.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversgurgaon.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/gurgaon.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversgoa.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/goa.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversindore.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/indore.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversghaziabad.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/ghaziabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversgandhidham.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/gandhidham.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversfaridabad.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/faridabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversdelhi.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/delhi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversdehradun.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/dehradun.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverscochin.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/cochin.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverschennai.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/chennai.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverschandigarh.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/chandigarh.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverscoimbatore.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/coimbatore.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverscalicut.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/calicut.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversbhubaneswar.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/bhubaneswar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversbhopal.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/bhopal.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversahmedabad.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/ahmedabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversaurangabad.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/aurangabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversankleshwar.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/ankleshwar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversbhiwandi.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/bhiwandi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversbangalore.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/bangalore.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversagra.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/agra.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/allahabad.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/allahabad-varanasi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversambala.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/ambala-chandigarh.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversportblair.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/port-blair.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/ambala.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/ambala-chandigarh.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="location/karnal.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/karnal-delhi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/noida.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/noida-ghaziabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+
+<location path="packersandmoversnoida.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/noida-ghaziabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+
+
+
+
+<location path="location/patiala.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/patiala-ludhiana.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+
+<location path="location/noida.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/noida-ghaziabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+
+<location path="location/colaba.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/colaba-mumbai.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+
+<location path="branch/karnal.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/karnal-delhi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+
+
+
+
+
+<location path="drsdiliproadlines.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/drs-dilip-road-lines.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverspatiala.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/patiala-ludhiana.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/kerala.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/kerala-cochin.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="customercare.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/customer-care.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="location/rourkela.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/rourkela-bhubaneswar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversrourkela.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/rourkela-bhubaneswar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/rourkela.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/rourkela-bhubaneswar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/secunderabad.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/secunderabad-hyderabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverssecunderabad.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/secunderabad-hyderabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/gandhinagar.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/gandhinagar-ahmedabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/amritsar.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/amritsar-ludhiana.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/erode.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/erode-coimbatore.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="dodonts.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/do-donts.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/ernakulam.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/ernakulam-cochin.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/shimla.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/shimla-chandigarh.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/patiala.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/patia-bhubaneswar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/korba.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/korba-raipur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/sambalpur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/sambalpur-bhubaneswar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="drslogisticspvtltd.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/drs-logistics-pvt-ltd.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="location/vasai.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/vasai-mumbai.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/jalandhar.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/jalandhar-ludhiana.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/shillong.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/shillong-siliguri.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/kolhapur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/kolhapur-pune.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/raigarh.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/raigarh-visakhapatnam.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="drscargomovers.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/drs-cargo-movers.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/cuttack.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/cuttack-bhubaneswar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/gorakhpur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/gorakhpur-varanasi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversvasai.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/vasai-mumbai.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/vasai.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/vasai-mumbai.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/dwarka.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/dwarka-jamnagar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="bulk-commercial.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/bulk-commercial.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="apmrecognitions.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/apm-recognitions.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="bulkcommercial.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/bulk-commercial.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="car-transportation.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/car-transportation.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="apmvideos.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/apm-videos.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/orissa.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/orissa-bhubaneswar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/tirupur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/tirupur-coimbatore.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="cartransportation.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/car-transportation.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="apmusp.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/apm-usp.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/bhuj.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/bhuj-gandhidham.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="advisoryboard.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/advisory-board.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/kankroli.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/kankroli-udaipur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/ponda.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/ponda-goa.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/hisar.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/hisar-gurgaon.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="company-factory-shifting.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/company-factory-shifting.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="companyfactoryshifting.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/company-factory-shifting.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="chappvan.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/chapp-van.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="corporate-relocation.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/corporate-relocation.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="csr.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/social-activities.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/jaysingpur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/jaysingpur-pune.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="apmclients.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/apm-clients.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="corporaterelocation.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/corporate-relocation.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="domestic-relocation.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/domestic-relocation.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="drsinternationalschool.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/drs-international-school.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="apmnews.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/apm-news.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="domesticrelocation.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/domestic-relocation.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="coremanagement.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/core-management.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="drsgroupevents.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/drs-group-events.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="apmbranchsevents.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/apm-branch-events.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/patalganga.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/patalganga-hyderabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="over-dimentional-cargo.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/over-dimensional-cargo.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="branch/kalighat.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/kalighat-kolkata.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="corporateclientlist.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/corporate-client-list.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="odc.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/over-dimensional-cargo.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="testimonial.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/testimonial/" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversgandhinagar.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/gandhinagar-ahmedabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverspanipat.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/panipat-delhi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversbhuj.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/bhuj-gandhidham.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverscuttack.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/cuttack-bhubaneswar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversdwarka.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/dwarka-jamnagar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversernakulam.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/ernakulam-cochin.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmovershisar.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/hisar-gurgaon.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversjamnagar.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/jamnagar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverskankroli.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/kankroli-udaipur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverskarnal.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/karnal-delhi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverskolhapur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/kolhapur-pune.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverskorba.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/korba-raipur.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversooty.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/ooty-coimbatore.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversorissa.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/orissa-bhubaneswar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverspanchkula.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/panchkula.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversponda.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/ponda-goa.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversraigarh.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/raigarh-visakhapatnam.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversshillong.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/shillong-siliguri.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversshimla.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/shimla-chandigarh.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverserode.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/erode-coimbatore.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverskerala.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/kerala-cochin.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverstirupur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/tirupur-coimbatore.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverssambalpur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/sambalpur-bhubaneswar.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversgorakhpur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/gorakhpur-varanasi.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversjalandhar.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/jalandhar-ludhiana.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversamritsar.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/amritsar-ludhiana.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="internationalpackersandmovers.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/services/international-packers-and-movers.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversbaroda.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/branch/baroda.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoversjaysingpur.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/jaysingpur-pune.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverskalighat.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/kalighat-kolkata.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+<location path="packersandmoverspatalganga.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/location/patalganga-hyderabad.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+
+
+<location path="process.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/quality-packing-process.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+
+<location path="termsconditions.html">
+<system.webServer>
+<httpRedirect enabled="true" destination="https://www.agarwalpackers.in/terms-conditions.html" httpResponseStatus="Permanent" />
+</system.webServer>
+</location>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <system.web>
+      <compilation targetFramework="4.0" />
+
+      <customErrors mode="On" redirectMode="ResponseRewrite">
+        <error statusCode="404" redirect="404.aspx" />
+      </customErrors>
+   </system.web>
+
+   <system.webServer>
+
+   <httpProtocol>
+        <customHeaders>
+            <add name="Access-Control-Allow-Origin" value="https://amp.agarwalpackers.in" />
+            <add name="Access-Control-Allow-Methods" value="GET,POST" />
+            <add name="Access-Control-Allow-Headers" value="X-Requested-With,content-type" />
+            <add name="Access-Control-Allow-Credentials" value="true" />
+            <add name="AMP-Redirect-To" value="https://amp.agarwalpackers.in/thank-you.html" />
+            <add name="Access-Control-Expose-Headers" value="AMP-Redirect-To, AMP-Access-Control-Allow-Source-Origin" />
+        </customHeaders>
+    </httpProtocol>
+
+      <httpErrors errorMode="Custom">
+         <remove statusCode="404" />
+         <error statusCode="404" path="/404.aspx" responseMode="ExecuteURL" />
+      </httpErrors>
+
+    <rewrite>
+    <rules>
+        <rule name="Redirect from non www agarwalpackers.in" stopProcessing="true">
+            <match url=".*" />
+            <conditions>
+                <add input="{HTTP_HOST}" pattern="^agarwalpackers.in$" />
+            </conditions>
+            <action type="Redirect" url="https://www.agarwalpackers.in/{R:0}" redirectType="Permanent" />
+        </rule>
+        <rule name="Redirect from non https agarwalpackers.in" stopProcessing="true">
+            <match url=".*" />
+            <conditions>
+                <add input="{HTTPS}" pattern="^OFF$" />
+                <add input="{HTTP_HOST}" pattern="^www.agarwalpackers.in$" />
+            </conditions>
+            <action type="Redirect" url="https://www.agarwalpackers.in/{R:0}" redirectType="Permanent" />
+        </rule>
+        <rule name="Redirect from non https www.agarwalpackers.in" stopProcessing="true">
+            <match url=".*" />
+            <conditions>
+                <add input="{HTTPS}" pattern="^OFF$" />
+                <add input="{HTTP_HOST}" pattern="^www.agarwalpackers.in$" />
+            </conditions>
+            <action type="Redirect" url="https://www.agarwalpackers.in/{R:0}" redirectType="Permanent" />
+        </rule>
+        <rule name="Rereoute" stopProcessing="true">
+                    <match url="/process.html" />
+                    <action type="Redirect" url="https://www.agarwalpackers.in/quality-packing-process.html" />
+                </rule>
+    </rules>
+</rewrite>
+        <urlCompression doDynamicCompression="true" />
+
+   </system.webServer>
+
+</configuration>

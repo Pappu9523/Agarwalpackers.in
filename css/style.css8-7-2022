@@ -1,0 +1,1715 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.pre-header {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 3px;
+    background: #ffcc03;
+    font-family: Muli, sans-serif
+}
+
+.pre-header p {
+    color: #333;
+    font-family: Muli, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 22px
+}
+
+.pre-header p a {
+    color: #333;
+    margin: 0
+}
+
+.pre-header p a i {
+    color: #ed3237
+}
+
+.pre-header p a:last-child {
+    border-right: none
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+    background: #fff;
+    font-family: Muli, sans-serif;
+    box-shadow: 1px 1px 1px #ed3237
+}
+
+.header-right p {
+    margin: 36px 0 16px 0;
+    text-align: center
+}
+
+.header-right p a {
+    background: #ed3237;
+    color: #fff;
+    padding: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 5px 0 5px 0
+}
+
+.header-right p a i {
+    background: #ffcc03;
+    padding: 5px;
+    color: #675d5d;
+    border-radius: 5px
+}
+
+.header-right-first img {
+    margin: 10px auto
+}
+
+.header-left img {
+    margin: 0 auto
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #ed3237
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 9px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Muli, sans-serif
+}
+
+.apm-nav {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #ed2b30;
+    border: 1px solid #ed2b30
+}
+
+.how-section {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    background: #f4f8fb;
+    padding: 15px 0 15px 0
+}
+
+.how-section h2 {
+    font-size: 30px;
+    color: #d53425;
+    line-height: 33px;
+    margin: 10px 0 10px 0;
+    font-family: Muli, sans-serif;
+    font-weight: 700
+}
+
+.how-section h2 span {
+    font-family: Handlee, cursive
+}
+
+.how-section p {
+    margin: 2px 0 5px 0;
+    color: #696363;
+    font-family: Muli, sans-serif
+}
+
+.topnav .icon {
+    display: none
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: 0;
+    color: #fff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+    z-index: 1
+}
+
+.dropdown-content a {
+    float: none;
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left
+}
+
+.dropdown:hover .dropbtn,
+.topnav a:hover {
+    background-color: #555;
+    color: #fff
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: #000
+}
+
+.dropdown:hover .dropdown-content {
+    display: block
+}
+
+.form-section {
+    width: 27%;
+    float: left;
+    margin: 0;
+    padding: 19px 16px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: Muli, sans-serif
+}
+
+.form-section::placeholder {
+    color: #b6a7a7
+}
+
+.form-section h4 {
+    color: #333;
+    font-weight: 700;
+    font-size: 19px;
+    text-decoration: none
+}
+
+.form-section h3 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700
+}
+
+.form-section h4 span {
+    color: #ed3237;
+    line-height: 27px;
+    font-size: 20px
+}
+
+.form-section p {
+    margin: 0;
+    padding: 11px 0 2px 0
+}
+
+.form-section p a {
+    color: #ed3237;
+    font-size: 20px
+}
+
+.form-section p a:hover {
+    color: #ed3237;
+    font-size: 17px
+}
+
+.input-field {
+    width: 49%;
+    height: auto;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 2px 0 2px 0
+}
+
+.input-field2 {
+    width: 98%;
+    height: auto;
+    padding: 5px 5px 5px 15px;
+    border-radius: 4px;
+    margin: 2px 0 2px 0
+}
+
+.input-field3 {
+    width: 98%;
+    height: auto;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 2px 0 2px 0
+}
+
+.input-field4 {
+    color: #f9f9f9;
+    background: #ed3237;
+    border: 1px solid #ed3237;
+    padding: 10px
+}
+
+.agarwal-packers-form2 {
+    margin: 0;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: Muli, sans-serif;
+    background: #ffd310
+}
+
+.form-section2 h4 {
+    color: #333;
+    font-weight: 700;
+    font-size: 19px;
+    text-decoration: none
+}
+
+.form-section2 h4 span {
+    color: #ed3237;
+    line-height: 27px;
+    font-size: 20px
+}
+
+.form-section2 p {
+    margin: 0;
+    padding: 11px 0 2px 0
+}
+
+.form-section p2 a {
+    color: #015294;
+    font-size: 17px
+}
+
+.form-section p2 a:hover {
+    color: #ed3237;
+    font-size: 17px
+}
+
+.input-field {
+    width: 49%;
+    height: auto;
+    padding: 5px 5px 5px 10px;
+    border-radius: 4px;
+    color: #000;
+    margin: 2px 0 2px 0;
+    border: 1px solid #fff
+}
+
+.input-field2 {
+    width: 98%;
+    height: auto;
+    padding: 5px 5px 5px 10px;
+    border-radius: 4px;
+    margin: 2px 0 2px 0;
+    border: 1px solid #fff
+}
+
+.input-field3 {
+    width: 98%;
+    height: auto;
+    padding: 5px 5px 5px 10px;
+    border-radius: 4px;
+    margin: 2px 0 2px 0;
+    border: 1px solid #fff
+}
+
+.input-field4 {
+    color: #f9f9f9;
+    background: #ed3237;
+    border: 1px solid #ed3237;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all .2s linear
+}
+
+.input-field4:hover {
+    color: #f9f9f9;
+    background: #ae1d16;
+    font-size: 14px;
+    padding: 8px 16px;
+    border: 1px solid #ae1d16
+}
+
+.agarwal-packers-main {
+    background: #f4f8fb
+}
+
+.agarwal-packers-form3 {
+    width: 27%;
+    margin: 0 auto;
+    padding: 19px 16px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    background: #ed3237;
+    font-family: Muli, sans-serif
+}
+
+.agarwal-packers-form3::placeholder {
+    color: #b6a7a7
+}
+
+.agarwal-packers-form3 h4 {
+    color: #333;
+    font-weight: 700;
+    font-size: 19px;
+    text-decoration: none
+}
+
+.agarwal-packers-form3 h3 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700
+}
+
+.agarwal-packers-form3 h4 span {
+    color: #fbcd20;
+    line-height: 27px;
+    font-size: 20px
+}
+
+.agarwal-packers-form3 p {
+    margin: 0;
+    padding: 11px 0 2px 0
+}
+
+.agarwal-packers-form3 p a {
+    color: #fbcd20;
+    font-size: 20px
+}
+
+.agarwal-packers-form3 p a:hover {
+    color: #fbcd20;
+    font-size: 21px
+}
+
+.agarwal-packers-form3 .input-field4 {
+    color: #f9f9f9;
+    background: #fbcd20;
+    border: 1px solid #fbcd20
+}
+
+.banner-section {
+    width: 73%;
+    float: left
+}
+
+.banner-section img {
+    width: 100%
+}
+
+.full-banner-section {
+    display: table-row
+}
+
+.banner-form-section {
+    background-image: url(https://www.agarwalpackers.in/images/form-background2.png);
+    overflow: hidden
+}
+
+.banner-section {
+    display: table-cell
+}
+
+.form-section {
+    display: table-cell
+}
+
+.service-section {
+    background-image: url(https://www.agarwalpackers.in/images/service-background.png);
+    padding: 50px 0;
+    overflow: hidden
+}
+
+.service-section h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 50px 0 10px 0;
+    font-family: Muli, sans-serif
+}
+
+.service-section h3 span {
+    font-weight: 700;
+    font-size: 24px;
+    color: #ed3237
+}
+
+.service-section img {
+    margin: 0 auto;
+    transition: all .2s linear
+}
+
+.service-section img:hover {
+    transform: scale(1.2)
+}
+
+.service-section h4 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #5a4f4f;
+    transition: all .2s linear;
+    font-family: Muli, sans-serif
+}
+
+.service-section h4:hover {
+    transform: scale(1.1)
+}
+
+.service-section h4 a {
+    color: #333;
+    font-size: 17px;
+    line-height: 21px;
+    text-decoration: underline
+}
+
+.service-inner {
+    border-radius: 3px;
+    padding: 0 2px 2px 2px;
+    margin: 2px 0 8px 0
+}
+
+.service-inner-section {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 30px 0 10px 0;
+    padding: 0
+}
+
+.service-inner-section p {
+    text-align: center;
+    color: #4b4444;
+    font-family: Muli, sans-serif
+}
+
+.service-inner-section-right {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 30px 0 10px 0;
+    padding: 0
+}
+
+.our-clients {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+.our-clients-left {
+    width: 40%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 40px 0 40px 0;
+    float: left;
+    background-image: url(https://www.agarwalpackers.in/images/our-clients-left.png);
+    font-family: Muli, sans-serif
+}
+
+.our-clients-left h3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #3a3636;
+    line-height: 35px;
+    margin: 5px 0 5px 0
+}
+
+.our-clients-left h3 span {
+    font-family: Handlee, cursive;
+    font-size: 30px
+}
+
+.our-clients-left p {
+    margin: 0 0 10px 0;
+    padding: 0 20px 5px 20px;
+    text-align: center;
+    color: #635a5a
+}
+
+.our-clients-left button {
+    margin: 0 auto !important;
+    text-align: center;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    background: #ed3237;
+    border: 1px solid #ed3237;
+    transition: all .2s linear
+}
+
+.our-clients-left button:hover {
+    background: #c62327;
+    color: #f4f8fb;
+    border: 1px solid #c62327;
+    padding: 5px 18px
+}
+
+.our-clients-right {
+    width: 60%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    float: left;
+    padding: 30px 0 33px 0;
+    background: #f1eded
+}
+
+.about-section {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 30px 0 10px 0;
+    overflow: hidden;
+    background: #f4f8fb
+}
+
+.about-section h4 {
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    color: #686868;
+    font-family: Muli, sans-serif
+}
+
+.about-section h4 span {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    color: #333;
+    font-family: Muli, sans-serif
+}
+
+.about-section h1 {
+    font-size: 20px;
+    color: #ed3237;
+    margin: 0;
+    text-align: center;
+    font-family: Handlee, cursive
+}
+
+.about-section h2 {
+    font-size: 19px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 700;
+    font-family: Muli, sans-serif
+}
+
+.about-section h1 span {
+    color: #cb3d30;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Muli, sans-serif
+}
+
+.about-section p {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    color: #3e3a3a;
+    line-height: 23px;
+    font-family: Muli, sans-serif
+}
+
+.about-section img {
+    margin: 0 auto
+}
+
+.about-section h3 {
+    font-size: 21px;
+    text-align: center;
+    color: #565553;
+    font-family: Handlee, cursive
+}
+
+.about-section h5 {
+    font-size: 23px;
+    text-align: center;
+    color: #4e4242;
+    font-family: Handlee, cursive;
+    font-weight: 700
+}
+
+.about-section h3 span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ed3237;
+    font-family: Muli, sans-serif
+}
+
+.about-section .para-left {
+    width: 4%;
+    float: left
+}
+
+.about-section .para-left i {
+    font-size: 16px;
+    text-align: center
+}
+
+.about-section .para-right {
+    width: 96%;
+    float: left
+}
+
+.about-section button {
+    background: #ed3237;
+    color: #f4f8fb;
+    border: 1px solid #ed3237;
+    padding: 5px 10px;
+    font-family: Muli, sans-serif;
+    transition: all .2s linear
+}
+
+.about-section button:hover {
+    background: #c62327;
+    color: #f4f8fb;
+    border: 1px solid #c62327;
+    padding: 5px 18px
+}
+
+.about-section-right {
+    background: #f9ce20;
+    padding: 8px 5px 8px 10px;
+    margin: 3px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #e0dada
+}
+
+.about-section-right p {
+    font-size: 15px
+}
+
+.about-section-right p i {
+    color: #ed3237
+}
+
+.awards {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    background: #f4f8fb;
+    overflow: hidden
+}
+
+.awards h4 {
+    font-size: 18px;
+    color: #4b4141;
+    margin: 10px 0 10px 0;
+    line-height: 27px;
+    text-align: center;
+    font-family: Muli, sans-serif
+}
+
+.awards h4 a {
+    color: #c61122;
+    font-weight: 700;
+    text-decoration: none
+}
+
+.awards h3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    color: #ed3237;
+    text-align: center;
+    font-family: Muli, sans-serif
+}
+
+.awards p {
+    text-align: center;
+    font-size: 15px;
+    color: #5a5555;
+    font-family: Muli, sans-serif
+}
+
+.awards img {
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #e0d3d3
+}
+
+.awards-inner {
+    width: 14.28%;
+    float: left;
+    padding: 15px
+}
+
+.our-innovations {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 90px 0 40px 0;
+    background-image: url(https://www.agarwalpackers.in/images/service-background.png)
+}
+
+.our-innovations h3 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 25px 0;
+    font-family: Handlee, cursive;
+    font-weight: 700
+}
+
+.our-innovations h3 span {
+    font-family: Muli, sans-serif
+}
+
+.our-innovations h4 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    color: #ed3237;
+    font-family: Muli, sans-serif
+}
+
+.our-innovations h4 a {
+    color: #ed3237
+}
+
+.our-innovations h4 a:hover {
+    text-decoration: none
+}
+
+.our-innovations p {
+    text-align: center;
+    color: #403a3a;
+    font-family: Muli, sans-serif
+}
+
+.our-innovations button {
+    background: #ed3237;
+    color: #f4f8fb;
+    border: 1px solid #ed3237;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 25px 0 0 0;
+    font-family: Muli, sans-serif;
+    transition: all .2s linear
+}
+
+.our-innovations button:hover {
+    background: #c62327;
+    color: #f4f8fb;
+    border: 1px solid #c62327;
+    padding: 7px 18px
+}
+
+.call-to-action {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 30px 0 15px 0;
+    background: #fff;
+    border-top: 5px solid #ee3e43
+}
+
+.call-inner {
+    width: 33.3%;
+    float: left
+}
+
+.call-inner-inside {
+    margin: 0 auto
+}
+
+.call-to-action .ring {
+    margin: 0 auto
+}
+
+.call-to-action .p-left {
+    width: 11%;
+    float: left
+}
+
+.call-to-action .p-left i {
+    font-size: 50px;
+    color: #333
+}
+
+.call-to-action .p-left .w {
+    font-size: 43px
+}
+
+.call-to-action .p-left .e {
+    font-size: 37px
+}
+
+.call-to-action .p-left img {
+    padding: 6px 0 6px 0
+}
+
+.call-to-action .p-right {
+    width: 89%;
+    float: left
+}
+
+.call-to-action .p-right p {
+    margin: 0;
+    padding: 0 0 0 5px;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Handlee, cursive
+}
+
+.call-to-action .p-right h5 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+    color: #ed3237;
+    padding: 5px 0 5px 5px;
+    font-family: Muli, sans-serif
+}
+
+.call-to-action .p-right h5 a {
+    color: #ed3237
+}
+
+.testimonials-awards {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+.testimonials-awards button {
+    background: #ed3237;
+    color: #f4f8fb;
+    border: 1px solid #ed3237;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 15px 0 5px 0;
+    font-family: Muli, sans-serif;
+    transition: all .2s linear
+}
+
+.testimonials-awards button:hover {
+    background: #c62327;
+    color: #f4f8fb;
+    border: 1px solid #c62327;
+    padding: 7px 18px
+}
+
+.testimonials-awards-left {
+    width: 55%;
+    float: left;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 30px 30px 35px 0;
+    background-image: url(https://www.agarwalpackers.in/images/box.png)
+}
+
+.testimonials-awards-left h4 {
+    font-size: 16px;
+    text-align: center;
+    color: #514851;
+    font-family: Handlee, cursive
+}
+
+.testimonials-awards-left h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin: 12px;
+    padding: 0;
+    font-family: Handlee, cursive
+}
+
+.testimonials-awards-left p {
+    text-align: center;
+    font-family: Muli, sans-serif
+}
+
+.testimonials-awards-left h5 {
+    text-align: center;
+    font-family: Muli, sans-serif;
+    color: #ed3237;
+    font-weight: 700
+}
+
+.testimonials-awards-left h6 {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Muli, sans-serif
+}
+
+.testimonials-awards-left h3 span {
+    font-weight: 700;
+    font-family: Muli, sans-serif
+}
+
+.testimonials-awards-right {
+    width: 40%;
+    float: left;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 30px 0 30px 0
+}
+
+.testimonials-awards-right .testimonials-awards-right-inner img {
+    padding: 3px;
+    border: 2px solid #c0a6a4;
+    border-radius: 4px
+}
+
+.testimonials-awards-right h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ed3237;
+    text-align: center;
+    margin: 5px 0 10px 0;
+    font-family: Handlee, cursive
+}
+
+.inner-achievements img {
+    margin: 5px 0 5px 0
+}
+
+.content-class2 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    background: #f4f8fb
+}
+
+.content-class2 p {
+    font-family: Muli, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 0 0
+}
+
+.content-class2 h1 {
+    font-size: 20px;
+    color: #ed3237;
+    margin: 0;
+    padding: 0 0 5px 0;
+    text-align: center;
+    font-family: Handlee, cursive
+}
+
+.content-class2 h1 span {
+    color: #cb3d30;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: underline;
+    font-family: Muli, sans-serif
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    background-image: url(https://www.agarwalpackers.in/images/footer-bg.png)
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+    font-family: Muli, sans-serif
+}
+
+.footer h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fbcd20;
+    font-family: Muli, sans-serif
+}
+
+.footer .quick-links ul li {
+    content: "\2022";
+    color: #fbcd20;
+    list-style-type: square;
+    padding: 3px;
+    font-family: Muli, sans-serif;
+    display: inline-block
+}
+
+.footer .quick-links ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-family: Muli, sans-serif
+}
+
+.footer .quick-links h4 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fbcd20;
+    font-family: Muli, sans-serif
+}
+
+.footer ul li a {
+    color: #fff;
+    font-size: 11px;
+    font-family: Muli, sans-serif
+}
+
+.footer ul li {
+    content: "\2022";
+    color: #fbcd20;
+    list-style-type: square;
+    font-family: Muli, sans-serif
+}
+
+.contact-inners {
+    margin: 10px 0;
+    overflow: hidden
+}
+
+.contact-inners h5 {
+    font-size: 16px !important
+}
+
+.sub {
+    border: 2px dotted #ee3e43;
+    border-right: 2px solid #ee3e43;
+    margin: 2px 0
+}
+
+.sub1 {
+    border: 2px dotted #ee3e43;
+    border-left: 2px solid #ee3e43;
+    margin: 2px 0
+}
+
+.contact-inners h4 {
+    text-decoration: none;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: #df2e33 !important
+}
+
+.contact-inners .pa-left {
+    width: 15%;
+    float: left
+}
+
+.contact-inners .pa-right {
+    width: 85%;
+    float: left;
+    text-align: left !important;
+    font-size: 14px;
+    font-weight: 700
+}
+
+
+@media only screen and (max-width:600px) {
+    .contact-inners .pa-left {
+        width: 100%
+    }
+
+    .contact-inners .pa-right {
+        width: 100%;
+        text-align: left !important;
+        font-size: 14px
+    }
+}
+
+.agarwal-counter {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 45px 0 45px 0;
+    background-image: url(https://www.agarwalpackers.in/images/counter-background.png)
+}
+
+.agarwal-counter h3 {
+    font-size: 28px;
+    text-align: center;
+    font-stretch: ultra-expanded;
+    font-stretch: ultra-condensed;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    font-family: Muli, sans-serif;
+    color: #fed023
+}
+
+.agarwal-counter h3 span {
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+    font-family: Handlee, cursive
+}
+
+.agarwal-counter p {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: #f1eded;
+    padding: 0 0 15px 0;
+    font-family: Muli, sans-serif
+}
+
+.agarwal-counter p .span {
+    color: #ffcc03;
+    font-size: 17px
+}
+
+.bold {
+    color: #ed3237
+}
+
+.thank-you-content {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    background-image: url(https://www.agarwalpackers.in/images/thankyouapm.png)
+}
+
+.thank-you-content img {
+    margin: 5px 0
+}
+
+.thank-you-content h3 {
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center
+}
+
+.thank-you-content p {
+    margin: 0 0 0;
+    text-align: center;
+    font-size: 16px
+}
+
+.thank-you-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center
+}
+
+.thank-you-content h4 a {
+    color: #fff;
+    background: #ed3237;
+    padding: 5px;
+    border-radius: 10px
+}
+
+.thank-you-content h4 a:hover {
+    color: #fff;
+    background: #494242;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none
+}
+
+.thank-you-content h2 {
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center
+}
+
+.thankyou-inner {
+    background: #fff;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 10px
+}
+
+.thankyou-inner h5 {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700
+}
+
+.agarwal-counter-inner {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 2px;
+    padding: 12px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #f3f3f3
+}
+
+.agarwal-counter-inner img {
+    margin: 0 auto
+}
+
+.agarwal-counter-inner h4 {
+    font-size: 18px;
+    text-align: center;
+    font-family: Muli, sans-serif
+}
+
+.gaya {
+    display: none
+}
+
+.post-footer {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 5px;
+    background: #fbcd20;
+    overflow: hidden;
+}
+
+.post-footer p {
+    margin: 0;
+    color: #333;
+    font-family: Muli, sans-serif;
+    font-size: 13px;
+    text-align: center
+}
+
+
+.post-footer-middle {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 15px 5px;
+    background: #fff;
+    overflow: hidden;
+}
+.post-footer-middle h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    font-family: Muli, sans-serif;
+}
+.post-footer-middle p {
+    margin: 0;
+    color: #333;
+    font-family: Muli, sans-serif;
+    font-size: 13px;
+    text-align: center
+}
+.post-footer-middle a {
+    margin: 0;
+    color: #000;
+    font-family: Muli, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    text-decoration:none;
+}
+.post-footer-middle ul li {
+    content: "\2022";
+    color: #000;
+    list-style-type: square;
+    font-family: Muli, sans-serif;
+}
+
+.post-footer p a {
+    color: #000;
+    font-weight: 400;
+    text-decoration: underline
+}
+
+.pass1 {
+    color: #f4f8fb;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    margin: 13px 0;
+    font-family: Muli, sans-serif
+}
+
+.pass1 a {
+    color: #f9c82d;
+    font-size: 33px !important;
+    text-decoration: none
+}
+
+.pass1 a:hover {
+    color: #fff
+}
+
+.half {
+    display: none
+}
+
+.full {
+    display: block
+}
+
+#toTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    cursor: pointer;
+    display: none !important;
+    padding: 8px 16px 8px 16px;
+    color: #2f3032;
+    background-color: #fbcd20;
+    border-color: #fbcd20;
+    box-shadow: 1px 1px 1px #383434
+}
+
+.dom {
+    display: none
+}
+
+#whatsapp {
+    position: fixed !important;
+    /*top: 55px;*/
+    right: 20px;
+    z-index: 1;
+    bottom: 15px;
+}
+
+.call-area .call-inner1 {
+    margin: 0 0 20px 0
+}
+
+.call-action-area {
+    padding: 60px 0
+}
+
+.call-area {
+    margin: 70px 0
+}
+
+.call-area .call-inner {
+    margin: 0 0 20px 0
+}
+
+.call-action .form-content {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px 20px;
+    background: #fff;
+    font-family: 'Be Vietnam', sans-serif;
+    box-shadow: 0 9px 0 0 #fff, 0 -9px 0 0 #fff, 7px 0 15px -4px rgba(0, 0, 0, .3), -7px 0 15px -4px rgba(0, 0, 0, .3)
+}
+
+.call-action .action {
+    padding: 20px 0 !important
+}
+
+.call-center {
+    margin: 100px 0
+}
+
+.btn12 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    background: #d62012;
+    border: 2px dashed #d62012;
+    padding: 3px 15px;
+    text-align: center;
+    border-radius: 6px
+}
+
+.btn13 {
+    background: #fff;
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px
+}
+
+.post-footer-middle-links{padding:10px 10px 30px 10px;}
+.post-footer-middle-links h4{font-size: 14px; font-weight: 700; color:#000; font-family: Muli,sans-serif;}
+.post-footer-middle-links ul li{content: "\2022"; color:#000; list-style-type: square;  font-family: Muli,sans-serif; margin-left: -10px;}
+.post-footer-middle-links ul li a{color:#000; font-size: 11px; font-family: Muli,sans-serif;}
+
+.post-footer-links{padding:10px 10px 30px 10px;}
+.post-footer-links h4{font-size: 14px; font-weight: 700; color:#ed3237; font-family: Muli,sans-serif;}
+.post-footer-links ul li{content: "\2022"; color:#ed3237; list-style-type: square; list-style-position: inside; font-family: Muli,sans-serif;}
+.post-footer-links ul li a{color:#ed3237; font-size: 11px; font-family: Muli,sans-serif;}
+.social-links{color: #f4f8fb; font-size: 19px; font-weight: 700; text-align: center; margin: 0; font-family: Muli, sans-serif;}
+.social-links a{color: #f9c82d; /*font-size: 33px !important;*/ text-decoration: none;}
+.banner-section .item{position: relative;}
+.banner-section .banner-description{position:absolute; top:0; right:0; padding: 0 20px;}
+.banner-section .banner-description h2{font-weight: 600;}
+.banner-section .banner-description h2 span{color:#000; font-size: 24px;}
+.banner-section .banner-description ul li{list-style-position: inside; list-style: none; margin: 0 0 15px;}
+.banner-section .banner-description ul li i{margin-right: 5px;}
+.banner-description img{max-width: 75px; width: auto; margin: 0 10px 0 0;}
+.award-list{display:flex;}
+.mob-banner-img{display: none;}
+
+@media screen and (max-width:1367px) {
+    .form-section {
+        padding: 5px
+    }
+
+    .form-section h4 span {
+        color: #ed3237;
+        line-height: 25px;
+        font-size: 19px
+    }
+
+    .form-section h4 {
+        margin: 3px
+    }
+
+    .our-clients-left {
+        padding: 23px 0 22px 0
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .two {
+        display: none
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .three {
+        display: none
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .our-clients-right {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+        margin: 0;
+        float: left;
+        padding: 62px 0 63px 0;
+        background: #f1eded
+    }
+
+    .our-clients-left h3 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 700;
+        color: #3a3636;
+        line-height: 26px;
+        margin: 0
+    }
+
+    .testimonials-awards-left {
+        width: 50%;
+        float: left;
+        height: auto;
+        max-width: 100%;
+        margin: 0;
+        padding: 13px 0 16px 0;
+        background-image: url(https://www.agarwalpackers.in/images/box.png)
+    }
+
+    .about-section-right p {
+        font-size: 13px
+    }
+    .banner-section .banner-description{position: static;}
+    .mob-banner-img{display: block;}
+    .desktop-banner-img{display: none;}
+}
+
+@media screen and (max-width:992px) {
+    .header-right-first img {
+        margin: 10px auto;
+        display: none
+    }
+    .banner-form-section{display: flex; flex-direction: column;}
+    .banner-form-section .banner-section{order: 2;}
+    .banner-form-section .form-section{order: 1;}
+
+}
+
+@media screen and (max-width:992px) {
+    .form-section {
+        width: 100%
+    }
+
+    .banner-section {
+        width: 100%
+    }
+
+    .agarwal-packers-form3 {
+        width: 100%
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .dropdown .dropbtn,
+    .topnav a:not(:first-child) {
+        display: none
+    }
+
+    .sticky-head {
+        position: sticky;
+        top: 0;
+        z-index: 1
+    }
+
+    .call-action-area {
+        padding: 0 0
+    }
+
+    .call-area {
+        margin: 20px 0
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block
+    }
+
+    .call-inner {
+        width: 100%;
+        float: left;
+        border-bottom: 2px dashed #333;
+        padding: 8px 0 8px 0
+    }
+
+    .awards-inner {
+        width: 25%;
+        float: left;
+        padding: 15px
+    }
+
+    .our-clients-left {
+        width: 100%;
+        height: auto
+    }
+
+    .our-clients-right {
+        width: 100%;
+        height: auto
+    }
+
+    .pre-mob {
+        display: none
+    }
+
+    .pre-header p {
+        color: #333;
+        font-family: Muli, sans-serif;
+        font-size: 12px
+    }
+
+    .testimonials-awards-left {
+        width: 100%
+    }
+
+    .testimonials-awards-right {
+        width: 100%
+    }
+
+    .header-right p a {
+        background: #ed3237;
+        color: #fff;
+        padding: 6px;
+        font-size: 13px
+    }
+
+    .gaya {
+        display: block
+    }
+
+    .about-section .para-left {
+        width: 6%;
+        float: left
+    }
+
+    .about-section .para-right {
+        width: 94%;
+        float: left
+    }
+
+    .pass1 {
+        text-align: center;
+        margin: 15px 0 5px 0
+    }
+
+    .post-footer p {
+        margin: 5px
+    }
+
+    #whatsapp {
+        position: fixed;
+        /*top: 55px;*/
+        right: 20px;
+        z-index: 1
+    }
+    .banner-section .banner-description h2{font-size: 22px;}
+    .banner-section .banner-description h2 span{font-size: 18px;}
+}
+
+@media screen and (max-width:600px) {
+    .form-section {
+        width: 100%
+    }
+
+    .banner-section {
+        width: 100%
+    }
+
+    .topnav.responsive {
+        position: relative
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left
+    }
+
+    .topnav.responsive .dropdown {
+        float: none
+    }
+
+    .topnav.responsive .dropdown-content {
+        position: relative
+    }
+
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left
+    }
+}
+
+.agarwal-packers-form .terms input[type=checkbox]{width: 18px; height: 18px; margin:0 5px 0 0;}
+.agarwal-packers-form .terms label{max-width: 90%;}

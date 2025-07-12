@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+Sitemap: https://www.agarwalpackers.in/sitemap.xml
+
+Disallow: /onlinereferals.html
+Disallow: /agarwalpackersandmoversreviews.html
+Disallow: /apmexperience.html
+Disallow: /images/DRS_Logistics.pdf
+Disallow: /specialoffers.html
+Disallow: /becomeapmmember.html
+Disallow: /apmevents.html
+Disallow: /franchiseenquiry.html
+Disallow: /promotions
+Disallow: /branch/baroda.html
+Disallow: /drslabs.html
+Disallow: /packersandmoverspatalgan
+
+User-agent: Googlebot
